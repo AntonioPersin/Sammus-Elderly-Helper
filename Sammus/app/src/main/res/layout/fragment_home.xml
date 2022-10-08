@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.ui.pocetna.PocetnaFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="60dp"
+        android:paddingBottom="8dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="166dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hitniPoziviTitle"
+                    style="@style/titleText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/pocetnaFragmentHitnoTitle"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/hitniPoziviSub"
+                    style="@style/regularText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pocetnaFragmentHitnoSub" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp" />
+
+                <Button
+                    android:id="@+id/hitanPoziv1"
+                    style="@style/buttonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="onClick"
+                    android:tag="1"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/hitanPoziv2"
+                    style="@style/buttonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="onClick"
+                    android:tag="2"
+                    android:text="Button"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/uputeZaPunjenjeTitle"
+                    style="@style/titleText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pocetnaFragmentTitle" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:id="@+id/uputeZaPunjenjeText"
+                    style="@style/regularText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pocetnaFragmentSub" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

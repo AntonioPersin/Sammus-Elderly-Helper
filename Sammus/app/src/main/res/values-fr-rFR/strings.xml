@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sammus</string>
+    <string name="nav_header_title">Assistant mobile Sammus</string>
+    <string name="nav_header_subtitle">Appuyez sur l\'une des options ci-dessous pour naviguer dans l\'application</string>
+    <string name="action_settings">LES PARAMÈTRES</string>
+    <string name="menu_home">Initiale</string>
+    <string name="menu_gallery">Numérotation rapide</string>
+    <string name="menu_slideshow">À propos de l\'application</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="annoyingActivityButtonText">Je vous ai trouvé!</string>
+    <string name="brzoBiranjeFragmentTitle">APPELS</string>
+    <string name="brzoBiranjeFragmentSub">Ici, vous pouvez appeler l\'un des 6 contacts répertoriés. Appuyez simplement sur le bouton et l\'appel commencera.</string>
+    <string name="pocetnaFragmentHitnoTitle">APPELS D\'URGENCE</string>
+    <string name="pocetnaFragmentHitnoSub">Appuyez sur l\'un des boutons ci-dessous pour démarrer l\'appel. Placez ensuite le téléphone à votre oreille.</string>
+    <string name="pocetnaFragmentTitle">INSTRUCTIONS POUR LA CHARGE DES TÉLÉPHONES MOBILES</string>
+    <string name="pocetnaFragmentSub">Prenez le câble fourni avec votre téléphone portable. Insérez la fiche dans la prise murale et une petite partie dans le téléphone portable. La fente sur le téléphone portable est située sur l\'un des bords du téléphone portable et est principalement de forme plate. Si vous sentez une résistance plus forte, essayez de tourner le connecteur de l\'autre côté. Si le téléphone se charge avec succès, il y a une petite image de la batterie dans le coin supérieur gauche, il y aura une icône avec un éclair.</string>
+    <string name="creditsFragmentTitle">À PROPOS DE LA DEMANDE</string>
+    <string name="creditsFragmentLegal">L\'auteur de l\'application ne garantit pas la sécurité de cette application. L\'application dispose d\'autorisations d\'appel et est aussi sécurisée que les services qu\'elle utilise (Firebase). L\'application a été faite pour le sujet Développement d\'applications sur la plate-forme Android à l\'École polytechnique technique de Zagreb.</string>
+    <string name="creditsFragemntAuthor">Auteur : Antonio Peršin</string>
+    <string name="creditsFragemntYear">Année : 2021</string>
+    <string name="creditsFragementVersion">Version : 1.0.0</string>
+    <string name="widgetHitnoTitle">Appuyez sur le bouton d\'appel direct</string>
+    <string name="settingsActivityHitnoTitle">PARAMÈTRES D\'APPEL D\'URGENCE</string>
+    <string name="settingsActivitySub">Les deux numéros suivants peuvent être sélectionnés pour les appels directs depuis l\'écran d\'accueil de l\'application et l\'écran d\'accueil du téléphone mobile. Il est nécessaire d\'entrer le nom et toute version du numéro (avec ou sans l\'indicatif du pays).</string>
+    <string name="settingsActivityBrzoBiranjeTitle">PARAMÈTRES DE NUMÉROTATION RAPIDE</string>
+    <string name="settingsActivityBrzoBiranjeSub">Les 6 numéros suivants peuvent être composés pour les appels directs à partir du menu de numérotation abrégée. Il est nécessaire d\'entrer le nom et toute version du numéro (avec ou sans l\'indicatif du pays).</string>
+    <string name="settingsActivitySaveButton">Sauvegarder les modifications</string>
+    <string name="settingsActivityDesignTitle">THÈME</string>
+    <string name="buttonZovi">Appel</string>
+    <string name="placeholderIme">Entrez un nom</string>
+    <string name="placeholderBroj">Entrez le numéro</string>
+    <string name="settingsActivityColorNormal">Thème lumineux</string>
+    <string name="settingsActivityColorDark">Thème sombre</string>
+</resources>

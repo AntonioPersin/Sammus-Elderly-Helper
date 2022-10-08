@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "593584837853",
+    "project_id": "sammus-ff56b",
+    "storage_bucket": "sammus-ff56b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593584837853:android:fafa6f9da40649b914f734",
+        "android_client_info": {
+          "package_name": "android.tvz.hr.sammus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593584837853-sslv260gol9kbdlkue75uflh3b8cg29u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRce8tIE2OHXo3sxS2jQGgQbhM-PK0LNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593584837853-sslv260gol9kbdlkue75uflh3b8cg29u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

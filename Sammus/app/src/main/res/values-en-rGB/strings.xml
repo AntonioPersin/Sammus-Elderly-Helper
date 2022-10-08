@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sammus</string>
+    <string name="nav_header_title">Sammus smartphone assistant</string>
+    <string name="nav_header_subtitle">Tap one of the options below to navigate the app</string>
+    <string name="action_settings">SETTINGS</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Speed dial</string>
+    <string name="menu_slideshow">About the app</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="annoyingActivityButtonText">Found you!</string>
+    <string name="brzoBiranjeFragmentTitle">CALLS</string>
+    <string name="pocetnaFragmentHitnoTitle">EMERGENCY CALLS</string>
+    <string name="brzoBiranjeFragmentSub">Here you can call any of the 6 listed contacts. Just press the button and the call will begin.</string>
+    <string name="pocetnaFragmentHitnoSub">Press one of the buttons below to start the call. Then place the phone to your ear.</string>
+    <string name="pocetnaFragmentTitle">INSTRUCTIONS FOR CHARGING THE PHONE</string>
+    <string name="pocetnaFragmentSub">Take the cable that came with your cell phone. Push the plug into the wall socket and a small part into the mobile phone. The socket on the cell phone is located on one of the edges of the cell phone and is mostly flat in shape. If you feel heavier resistance try turning the connector to the other side. If the phone is successfully charging, there is a small picture of the battery in the upper left corner, it will have an icon with lightning.</string>
+    <string name="creditsFragmentTitle">ABOUT THE APP</string>
+    <string name="creditsFragmentLegal">The author of the application does not guarantee the security of this application. The application has call permissions and is as secure as the services it uses (Firebase). The application was made for the subject Application Development on the Android Platform at the University of Polytechnic University in Zagreb.</string>
+    <string name="creditsFragemntAuthor">Author: Antonio Peršin</string>
+    <string name="creditsFragemntYear">Year: 2021</string>
+    <string name="creditsFragementVersion">Version: 1.0.0</string>
+    <string name="widgetHitnoTitle">Press the button for a direct call</string>
+    <string name="settingsActivityHitnoTitle">EMERGENCY CALL SETTINGS</string>
+    <string name="settingsActivitySub">The next two numbers can be selected for direct calls from the home screen of the application and the home screen of the mobile phone. It is necessary to enter the name and any version of the number (with or without the country code).</string>
+    <string name="settingsActivityBrzoBiranjeTitle">SPEED DIAL SETTIGS</string>
+    <string name="settingsActivityBrzoBiranjeSub">The next 6 numbers can be selected to make a call directly from the Speed ​​Dial menu. It is necessary to enter the name and any version of the number (with or without the country code).</string>
+    <string name="settingsActivitySaveButton">Save changes</string>
+    <string name="settingsActivityDesignTitle">THEME</string>
+    <string name="buttonZovi">Call</string>
+    <string name="placeholderIme">Input a name</string>
+    <string name="placeholderBroj">Input a number</string>
+    <string name="settingsActivityColorNormal">Light theme</string>
+    <string name="settingsActivityColorDark">Dark theme</string>
+</resources>

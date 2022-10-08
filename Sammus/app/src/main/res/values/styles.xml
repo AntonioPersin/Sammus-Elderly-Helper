@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="titleText" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">@color/light_title_text</item>
+        <item name="android:textAppearanceInverse">@color/dark_title_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="titleWhiteText" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">@color/dark_title_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="regularText" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">@color/light_regular_text</item>
+        <item name="android:textAppearanceInverse">@color/dark_regular_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="regularWhiteText" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">@color/dark_regular_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="regularTextSmall" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">@color/light_regular_text</item>
+        <item name="android:textAppearanceInverse">@color/dark_regular_text</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="buttonStyle" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">@color/dark_regular_text</item>
+        <item name="android:textAppearanceInverse">@color/dark_regular_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+</resources>

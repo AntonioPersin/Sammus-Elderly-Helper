@@ -1,0 +1,388 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right|end"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="60dp"
+        android:paddingBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/settings"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/hitniPoziviSettingsTitle"
+                        style="@style/titleText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="@string/settingsActivityHitnoTitle" />
+
+                    <TextView
+                        android:id="@+id/hitniPoziviSettingsSub"
+                        style="@style/regularText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="@string/settingsActivitySub" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@android:color/darker_gray"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="4dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="4dp"
+                        android:weightSum="5">
+
+                        <EditText
+                            android:id="@+id/editTextHitnoIme1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name" />
+
+                        <EditText
+                            android:id="@+id/editTextHitanBroj1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:ems="10"
+                            android:inputType="phone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="4dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="4dp"
+                        android:weightSum="5">
+
+                        <EditText
+                            android:id="@+id/editTextHitnoIme2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name" />
+
+                        <EditText
+                            android:id="@+id/editTextHitanBroj2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:ems="10"
+                            android:inputType="phone" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/brzoBiranjeSettingsTitle"
+                        style="@style/titleText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="@string/settingsActivityBrzoBiranjeTitle" />
+
+                    <TextView
+                        android:id="@+id/brzoBiranjeSettingsSub"
+                        style="@style/regularText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="@string/settingsActivityBrzoBiranjeSub" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@android:color/darker_gray"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="4dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="4dp"
+                        android:weightSum="5">
+
+                        <EditText
+                            android:id="@+id/editTextBrzoBiranjeIme1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name" />
+
+                        <EditText
+                            android:id="@+id/editTextBrzoBiranjeBroj1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:ems="10"
+                            android:inputType="phone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="4dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="4dp"
+                        android:weightSum="5">
+
+                        <EditText
+                            android:id="@+id/editTextBrzoBiranjeIme2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name" />
+
+                        <EditText
+                            android:id="@+id/editTextBrzoBiranjeBroj2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:ems="10"
+                            android:inputType="phone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="4dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="4dp"
+                        android:weightSum="5">
+
+                        <EditText
+                            android:id="@+id/editTextBrzoBiranjeIme3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name" />
+
+                        <EditText
+                            android:id="@+id/editTextBrzoBiranjeBroj3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:ems="10"
+                            android:inputType="phone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="4dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="4dp"
+                        android:weightSum="5">
+
+                        <EditText
+                            android:id="@+id/editTextBrzoBiranjeIme4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name" />
+
+                        <EditText
+                            android:id="@+id/editTextBrzoBiranjeBroj4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:ems="10"
+                            android:inputType="phone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="4dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="4dp"
+                        android:weightSum="5">
+
+                        <EditText
+                            android:id="@+id/editTextBrzoBiranjeIme5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name" />
+
+                        <EditText
+                            android:id="@+id/editTextBrzoBiranjeBroj5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:ems="10"
+                            android:inputType="phone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="4dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="4dp"
+                        android:weightSum="5">
+
+                        <EditText
+                            android:id="@+id/editTextBrzoBiranjeIme6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name" />
+
+                        <EditText
+                            android:id="@+id/editTextBrzoBiranjeBroj6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:ems="10"
+                            android:inputType="phone" />
+                    </LinearLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/saveContactsButton"
+                            style="@style/buttonStyle"
+                            android:layout_width="224dp"
+                            android:layout_height="45dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/buttonshape"
+                            android:onClick="onSave"
+                            android:text="@string/settingsActivitySaveButton"
+                            android:textColor="@color/dark_title_text"
+                            android:textSize="18sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/izgledSettingsTitle"
+                        style="@style/titleText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="@string/settingsActivityDesignTitle" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@android:color/darker_gray"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup"
+                        style="@style/regularText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/radioButtonNormal"
+                            style="@style/regularText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/settingsActivityColorNormal" />
+
+                        <RadioButton
+                            android:id="@+id/radioButtonDark"
+                            style="@style/regularText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/settingsActivityColorDark" />
+
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

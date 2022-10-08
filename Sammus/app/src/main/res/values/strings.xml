@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Sammus</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_subtitle">Pritisnite neku od dolje navedenih opcija za navigiranje po aplikaciji</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">POSTAVKE</string>
+
+    <string name="menu_home">Početna</string>
+    <string name="menu_gallery">Brzo biranje</string>
+    <string name="menu_slideshow">O aplikaciji</string>
+    <string name="title_activity_settings">Postavke</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header" translatable="false">Messages</string>
+    <string name="sync_header" translatable="false">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title" translatable="false">Your signature</string>
+    <string name="reply_title" translatable="false">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" translatable="false">Sync email periodically</string>
+    <string name="attachment_title" translatable="false">Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>
+    <string name="preference_file_key" translatable="false">kontaktiData</string>
+    <string name="appwidget_text" translatable="false">EXAMPLE</string>
+    <string name="add_widget" translatable="false">Add widget</string>
+    <string name="annoyingActivityButtonText">Pronašao sam te!</string>
+    <string name="brzoBiranjeFragmentTitle">POZIVI</string>
+    <string name="brzoBiranjeFragmentSub">Ovdje možete zvati nekog od 6 navedenih kontakata. Samo pritisnite gumb i poziv će početi.</string>
+    <string name="pocetnaFragmentHitnoTitle">HITNI POZIVI</string>
+    <string name="pocetnaFragmentHitnoSub">Pritisnite jedan od navedenih gumbiju za početak poziva. Zatim stavite telefon na uho.</string>
+    <string name="pocetnaFragmentTitle">UPUTE ZA PUNJENJE MOBITELA</string>
+    <string name="pocetnaFragmentSub">Uzmite kabel koji ste dobili sa mobitelom. Utikač gurnite u utičnicu na zidu, a manji dio u mobitel. Utor na mobitelu se nalazi na nekom od rubova mobitela i uglavnom je plosnatog oblika. Ako osjetite teži otpor pokušajte okrenuti konektor na drugu stranu. Ako se mobitel uspješno puni, u gornjem lijevom kutu nalazi mala slika baterije, ona će imati ikonu sa munjom.</string>
+    <string name="creditsFragmentTitle">O APLIKACIJI</string>
+    <string name="creditsFragmentLegal">Autor aplikacije ne garantira sigurnost ove aplikacije. Aplikacija ima dozvole upućivanja poziva te je sama sigurna onoliko koliko su i servisi kojima se služi (Firebase). Aplikacija je napravljena za predmet Razvoj aplikacija na Android platformi na tehničkom veleučilištu u Zagrebu.</string>
+    <string name="creditsFragemntAuthor">Autor: Antonio Peršin</string>
+    <string name="creditsFragemntYear">Godina: 2021.</string>
+    <string name="creditsFragementVersion">Verzija: 1.0.0</string>
+    <string name="widgetHitnoTitle">Pritisnite gumb za direktan poziv</string>
+    <string name="settingsActivityHitnoTitle">POSTAVKE HITNIH POZIVA</string>
+    <string name="settingsActivitySub">Sljedeća dva broja će biti moguće odabrati za direktno upućivanje poziva sa početnog zaslona aplikacije i početnog zaslona mobitela. Potrebno je unijeti ime i bilo koju verziju broja (sa ili bez pozivnog broja države).</string>
+    <string name="settingsActivityBrzoBiranjeTitle">POSTAVKE BRZOG BIRANJA</string>
+    <string name="settingsActivityBrzoBiranjeSub">Sljedećih 6 brojeva će biti moguće odabrati za direktno upućivanje poziva iz izbornika Brzo Biranje. Potrebno je unijeti ime i bilo koju verziju broja (sa ili bez pozivnog broja države).</string>
+    <string name="settingsActivitySaveButton">Spremi promjene</string>
+    <string name="settingsActivityDesignTitle">TEMA</string>
+    <string name="buttonZovi">Zovi </string>
+    <string name="placeholderIme">Unesite ime</string>
+    <string name="placeholderBroj">Unesite broj</string>
+    <string name="settingsActivityColorNormal">Svijetla tema</string>
+    <string name="settingsActivityColorDark">Tamna tema</string>
+    <string name="nav_header_title">Sammus mobilni asistent</string>
+</resources>
